@@ -10,7 +10,8 @@ public class MySqlManager {
     private PreparedStatement preparedStatement = null;
 
     public MySqlManager() {
-        SqlConnector("jdbc:mysql://localhost:3306/vehiclemanager", "root", "mly20051203");
+        // TODO:填写端口号（一般为3306）、数据库名称（可以在localhost创建一个vehicleManager）、用户名（一般为root）、密码（我不知道）
+        SqlConnector("jdbc:mysql://localhost:***/***", "***", "***");
     }
 
     // 运行sql语句
