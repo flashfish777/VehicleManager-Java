@@ -19,7 +19,8 @@ public class SqlManager {
 
     /** 初始化 */
     public SqlManager() throws SQLException {
-        SqlConnector("jdbc:mysql://localhost:3306/vehiclemanager_v3", "root", "mly20051203");
+        // 填写xxx（前为数据库名，后为密码）
+        SqlConnector("jdbc:mysql://localhost:3306/xxx", "root", "xxx");
     }
 
     /** 连接MySQL数据库 */
